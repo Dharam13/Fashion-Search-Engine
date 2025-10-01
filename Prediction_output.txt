@@ -1,0 +1,175 @@
+
+Loading CLIP model...
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+Loading text embedding model...
+Connecting to Weaviate...
+Connected to existing collection: EnhancedFashionProducts
+
+============================================================
+FASHION SIMILARITY SEARCH
+============================================================
+
+🔍 BASIC IMAGE SEARCH
+
+Searching for products similar to: img_1.png
+Mode: image, Style filter: None, Color filter: None
+
+====================================================================================================
+FOUND 5 SIMILAR PRODUCTS
+====================================================================================================
+
+--- RESULT 1 ---
+Name: Shaily Yellow Pure Georgette Chikankari Embroidered Saree
+Brand: Shaily
+Price: ₹4497.0
+Color: Yellow
+Type: top, ethnic, saree
+Style: ethnic
+Rating: 4.0/5 (4 reviews)
+Similarity: 0.872
+Image: images\8403.jpg
+Description: <b>Design Details </b><ul><li>Yellow saree</li><li>Floral embroidered saree with embroidered border<...
+--------------------------------------------------------------------------------
+
+--- RESULT 2 ---
+Name: Clora Creation Women Off-White Solid Flared Palazzos
+Brand: Clora Creation
+Price: ₹999.0
+Color: Off White
+Type: ethnic, salwar
+Style: ethnic
+Rating: 4.1/5 (158 reviews)
+Similarity: 0.869
+Image: images\5448.jpg
+Description: A pair of Off-white solid knitted flared fit Palazzos, opaque, 2 pockets, and drawstring closureThe ...
+--------------------------------------------------------------------------------
+
+--- RESULT 3 ---
+Name: RAASSIO Women Lavender-Colored & White Printed Co-Ords
+Brand: RAASSIO
+Price: ₹4299.0
+Color: Lavender
+Type: top, bottom, western
+Style: western
+Rating: 0.0/5 (0 reviews)
+Similarity: 0.867
+Image: images\6926.jpg
+Description: <p>This co-ord set consists of a top and a trouser<br>Lavender-colored and white printed crop top, h...
+--------------------------------------------------------------------------------
+
+--- RESULT 4 ---
+Name: BUY NEW TREND Brown Open-Front Shrug
+Brand: BUY NEW TREND
+Price: ₹1399.0
+Color: Brown
+Type: western
+Style: western
+Rating: 0.0/5 (0 reviews)
+Similarity: 0.864
+Image: images\13158.jpg
+Description: Brown solid open front regular shrug ,has three-quarter sleeves,  straight hemCotton Lycra<br>Machin...
+--------------------------------------------------------------------------------
+
+--- RESULT 5 ---
+Name: FabAlley Women Maroon & Dusty Pink Striped Basic Jumpsuit
+Brand: FabAlley
+Price: ₹2200.0
+Color: Maroon
+Type: unknown
+Style: unknown
+Rating: 4.4/5 (28 reviews)
+Similarity: 0.862
+Image: images\6531.jpg
+Description: Maroon, dusty pink and black striped basic jumpsuit, has shoulder straps, sleeveless, two pockets, c...
+--------------------------------------------------------------------------------
+
+🔍 ENHANCED COMBINED SEARCH
+
+Searching for products similar to: img_1.png
+Mode: combined, Style filter: None, Color filter: None
+
+====================================================================================================
+FOUND 5 SIMILAR PRODUCTS
+====================================================================================================
+
+--- RESULT 1 ---
+Name: Clora Creation Women Off-White Solid Flared Palazzos
+Brand: Clora Creation
+Price: ₹999.0
+Color: Off White
+Type: ethnic, salwar
+Style: ethnic
+Rating: 4.1/5 (158 reviews)
+Similarity: 0.895
+Image: images\5448.jpg
+Description: A pair of Off-white solid knitted flared fit Palazzos, opaque, 2 pockets, and drawstring closureThe ...
+--------------------------------------------------------------------------------
+
+--- RESULT 2 ---
+Name: BUY NEW TREND Brown Open-Front Shrug
+Brand: BUY NEW TREND
+Price: ₹1399.0
+Color: Brown
+Type: western
+Style: western
+Rating: 0.0/5 (0 reviews)
+Similarity: 0.892
+Image: images\13158.jpg
+Description: Brown solid open front regular shrug ,has three-quarter sleeves,  straight hemCotton Lycra<br>Machin...
+--------------------------------------------------------------------------------
+
+--- RESULT 3 ---
+Name: Shaily Yellow Pure Georgette Chikankari Embroidered Saree
+Brand: Shaily
+Price: ₹4497.0
+Color: Yellow
+Type: top, ethnic, saree
+Style: ethnic
+Rating: 4.0/5 (4 reviews)
+Similarity: 0.892
+Image: images\8403.jpg
+Description: <b>Design Details </b><ul><li>Yellow saree</li><li>Floral embroidered saree with embroidered border<...
+--------------------------------------------------------------------------------
+
+--- RESULT 4 ---
+Name: FabAlley Women Maroon & Dusty Pink Striped Basic Jumpsuit
+Brand: FabAlley
+Price: ₹2200.0
+Color: Maroon
+Type: unknown
+Style: unknown
+Rating: 4.4/5 (28 reviews)
+Similarity: 0.891
+Image: images\6531.jpg
+Description: Maroon, dusty pink and black striped basic jumpsuit, has shoulder straps, sleeveless, two pockets, c...
+--------------------------------------------------------------------------------
+
+--- RESULT 5 ---
+Name: RAASSIO Women Lavender-Colored & White Printed Co-Ords
+Brand: RAASSIO
+Price: ₹4299.0
+Color: Lavender
+Type: top, bottom, western
+Style: western
+Rating: 0.0/5 (0 reviews)
+Similarity: 0.889
+Image: images\6926.jpg
+Description: <p>This co-ord set consists of a top and a trouser<br>Lavender-colored and white printed crop top, h...
+--------------------------------------------------------------------------------
+
+🔍 ETHNIC CLOTHING ONLY
+
+Searching for products similar to: img_1.png
+Mode: combined, Style filter: ethnic, Color filter: None
+Error during search: 'GenerativeReturn' object has no attribute 'where'
+No results found!
+
+🔍 WESTERN CLOTHING ONLY
+
+Searching for products similar to: img_1.png
+Mode: combined, Style filter: western, Color filter: None
+Error during search: 'GenerativeReturn' object has no attribute 'where'
+No results found!
+Connection closed.
+
+Process finished with exit code 0
